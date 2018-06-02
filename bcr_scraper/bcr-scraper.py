@@ -22,7 +22,7 @@ class Results:
         elem = self.browser_instance.web_driver.find_element_by_tag_name("body")
         elem.send_keys(Keys.TAB)
 
-        pagedowns = 10 # TODO set back to 1000
+        pagedowns = 1000
 
         while pagedowns:
             elem.send_keys(Keys.PAGE_DOWN)
