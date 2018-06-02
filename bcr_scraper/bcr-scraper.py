@@ -99,9 +99,4 @@ class Results:
         self.scrape_results()
         self.save_results_to_csv()
 
-
-<<<<<<< current
 r_2018 = Results('2018', 'https://www.davengo.com/event/result/17-ikk-bb-berliner-firmenlauf-2018/search?category=Läufer%205,5%20km')
-=======
-r_2018 = Results('2016')
->>>>>>> before discard
