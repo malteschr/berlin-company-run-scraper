@@ -90,6 +90,7 @@ class Results:
         print('\nSaved results to csv')
 
 
+        
     def __init__(self, year, url_path):
 
         self.browser_instance = BrowserInstance()
@@ -98,3 +99,4 @@ class Results:
         self.load_results()
         self.scrape_results()
         self.save_results_to_csv()
+
