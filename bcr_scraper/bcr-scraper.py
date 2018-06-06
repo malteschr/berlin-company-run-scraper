@@ -90,14 +90,13 @@ class Results:
         print('\nSaved results to csv')
 
 
-    def __init__(self, year):
+        
+    def __init__(self, year, url_path):
 
         self.browser_instance = BrowserInstance()
         self.year = year
-        self.url_path = 'https://www.davengo.com/event/result/17-ikk-bb-berliner-firmenlauf-' + self.year + '/search?category=Läufer%205,5%20km'
+        self.url_path = url_path
         self.load_results()
         self.scrape_results()
         self.save_results_to_csv()
 
-
-r_2018 = Results('2018')
